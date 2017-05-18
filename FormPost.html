@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>表单传递</title>
+        <meta charset="UTF-8">
+        <style>
+            
+            body{text-align: center;background: red;}
+            h1{text-align: center;font: caption;}
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    </head>
+    <body>
+        <br><br><br><br><br>
+        <h1>登录信息</h1>
+       <form action="index.php" method="post">
+           Name  : <input type="text" name="username"><br>
+           E-mail: <input type="password" name="password"><br>
+           <input type="submit" value="登录">
+           <input type="button" onclick="window.location.href='register.html'" value="注册">
+</form>
+    </body>
+</html>
